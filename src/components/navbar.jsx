@@ -14,7 +14,7 @@ export default function Navbar() {
   };
 
   return (
-    <motion.nav 
+    <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
@@ -23,27 +23,31 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <motion.div 
+          <motion.div
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-3"
           >
-            <motion.div 
-              whileHover={{ rotate: 360 }}
+            <motion.div
+             // whileHover={{ rotate: 360 }}
               transition={{ duration: 0.6 }}
-              className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden"
+              className="w-12 h-12 rounded-lg flex items-center justify-center overflow-hidden"
             >
-              <img 
-                src="/Techroma Logo.png" 
-                alt="Techroma Logo" 
+              <img
+                src="/Techroma Logo.png"
+                alt="Techroma Logo"
                 className="w-full h-full object-contain"
               />
             </motion.div>
-            <span className="text-2xl font-bold text-gray-800">Techroma</span>
-          </motion.div>
-          
+            <div className="text-gray-800">
+  <div className="text-2xl font-bold leading-none font-montserrat">TECHROMA</div>
+  <div className="text-sm font-bold text-center font-montserrat">INDUSTRIES</div>
+</div>
+
+         </motion.div>
+
           {/* Navigation Links - Desktop */}
           <div className="hidden md:flex space-x-8">
-            <motion.button 
+            <motion.button
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => scrollToSection('home')}
@@ -51,7 +55,7 @@ export default function Navbar() {
             >
               Home
             </motion.button>
-            <motion.button 
+            <motion.button
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => scrollToSection('about')}
@@ -59,7 +63,7 @@ export default function Navbar() {
             >
               About Us
             </motion.button>
-            <motion.button 
+            <motion.button
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => scrollToSection('products')}
@@ -67,7 +71,7 @@ export default function Navbar() {
             >
               Products
             </motion.button>
-            <motion.button 
+            <motion.button
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => scrollToSection('markets')}
@@ -75,7 +79,7 @@ export default function Navbar() {
             >
               Export
             </motion.button>
-            <motion.button 
+            <motion.button
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => scrollToSection('contact')}
@@ -84,9 +88,9 @@ export default function Navbar() {
               Contact
             </motion.button>
           </div>
-          
+
           {/* Mobile Menu Button */}
-          <motion.button 
+          <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="md:hidden text-gray-700"
@@ -112,7 +116,7 @@ export default function Navbar() {
           transition={{ duration: 0.3 }}
           className="md:hidden overflow-hidden"
         >
-          <motion.div 
+          <motion.div
             variants={{
               open: { opacity: 1, y: 0 },
               closed: { opacity: 0, y: -10 }
@@ -120,35 +124,35 @@ export default function Navbar() {
             className="pb-4"
           >
             <div className="flex flex-col space-y-2">
-              <motion.button 
+              <motion.button
                 whileHover={{ x: 5 }}
                 onClick={() => scrollToSection('home')}
                 className="text-brand-blue font-medium py-2 text-left"
               >
                 Home
               </motion.button>
-              <motion.button 
+              <motion.button
                 whileHover={{ x: 5 }}
                 onClick={() => scrollToSection('about')}
                 className="text-gray-700 py-2 text-left"
               >
                 About Us
               </motion.button>
-              <motion.button 
+              <motion.button
                 whileHover={{ x: 5 }}
                 onClick={() => scrollToSection('products')}
                 className="text-gray-700 py-2 text-left"
               >
                 Products
               </motion.button>
-              <motion.button 
+              <motion.button
                 whileHover={{ x: 5 }}
                 onClick={() => scrollToSection('markets')}
                 className="text-gray-700 py-2 text-left"
               >
                 Export
               </motion.button>
-              <motion.button 
+              <motion.button
                 whileHover={{ x: 5 }}
                 onClick={() => scrollToSection('contact')}
                 className="text-gray-700 py-2 text-left"

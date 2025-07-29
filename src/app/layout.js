@@ -14,16 +14,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Techroma - Premium Pigments & Color Solutions | Global Export",
+  title: "TECHROMA INDUSTRIES - Premium Pigments & Color Solutions | Global Export",
   description: "Leading manufacturer and exporter of premium organic and inorganic pigments for paints, coatings, textiles, plastics, and printing industries worldwide.",
   keywords: "pigments, organic pigments, inorganic pigments, color solutions, export, paints, coatings, textiles, plastics, printing inks",
   authors: [{ name: "Techroma" }],
   viewport: "width=device-width, initial-scale=1",
+  icons: {
+    icon: "/Techroma Logo.png",
+    shortcut: "/Techroma Logo.png",
+    apple: "/Techroma Logo.png",
+  },
   openGraph: {
-    title: "Techroma - Premium Pigments & Color Solutions",
+    title: "TECHROMA INDUSTRIES - Premium Pigments & Color Solutions",
     description: "Leading manufacturer and exporter of premium organic and inorganic pigments for industries worldwide.",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/Techroma Logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Techroma Logo",
+      },
+    ],
   },
 };
 

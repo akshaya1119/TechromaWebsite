@@ -19,9 +19,10 @@ export default function Hero() {
         animate={{ scale: 1 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-       
+        
       />
-      <div className="absolute inset-0 bg-black bg-opacity-50"  style={{
+      <div className="absolute inset-0 bg-black bg-opacity-50" 
+      style={{
           backgroundImage: "url('/herobg.jpg')"
         }}/>
       

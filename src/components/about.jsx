@@ -30,7 +30,19 @@ export default function About() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About Techroma</h2>
+          {/* <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About Techroma</h2> */}
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 font-montserrat">
+            About{" "}
+  <span className="text-[#0068a2]">T</span>
+  <span className="text-[#e84061]">e</span>
+  <span className="text-[#fcb92d]">c</span>
+  <span className="text-[#c8c9cb]">h</span>
+  <span className="text-[#0068a2]">r</span>
+  <span className="text-[#e84061]">o</span>
+  <span className="text-[#fcb92d]">m</span>
+  <span className="text-[#c8c9cb]">a</span>
+</h2>
+
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Founded with a passion for pigments and a vision to fill market gaps in sustainable color solutions
           </p>
