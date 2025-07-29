@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #c8c9cb;
   --foreground: #171717;
+  
+  /* Techroma Brand Colors */
+  --color-brand-blue: #2563eb;
+  --color-brand-red: #e84061;
+  --color-brand-yellow: #fcb92d;
+  --color-brand-grey: #f3f4f6;
 }
 
 @theme inline {
@@ -10,6 +16,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Brand Colors */
+  --color-brand-blue: var(--color-brand-blue);
+  --color-brand-red: var(--color-brand-red);
+  --color-brand-yellow: var(--color-brand-yellow);
+  --color-brand-grey: var(--color-brand-grey);
 }
 
 @media (prefers-color-scheme: dark) {
