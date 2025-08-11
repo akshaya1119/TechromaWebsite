@@ -32,16 +32,8 @@ export default function About() {
         >
           {/* <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About Techroma</h2> */}
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 font-montserrat">
-            About{" "}
-  <span className="text-[#0068a2]">T</span>
-  <span className="text-[#e84061]">e</span>
-  <span className="text-[#fcb92d]">c</span>
-  <span className="text-[#c8c9cb]">h</span>
-  <span className="text-[#0068a2]">r</span>
-  <span className="text-[#e84061]">o</span>
-  <span className="text-[#fcb92d]">m</span>
-  <span className="text-[#c8c9cb]">a</span>
-</h2>
+            About <span className="text-[#0068a2]">Techroma</span>
+          </h2>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Founded with a passion for pigments and a vision to fill market gaps in sustainable color solutions
@@ -74,10 +66,10 @@ export default function About() {
           >
             <h3 className="text-3xl font-bold text-gray-800 mb-6">Our Mission</h3>
             <p className="text-lg text-gray-600 mb-6">
-              Delivering vibrant, sustainable color solutions to industries worldwide through innovation, quality, and customer-centric service. Our team's expertise spans decades in pigment chemistry and global trade.
+              At Techroma, our mission is to create high-performance chemical solutions that enable industries to innovate, excel, and stay ahead. We combine precision engineering, deep technical expertise, and a spirit of innovation to develop products that meet the evolving demands of our partners.
             </p>
             <p className="text-lg text-gray-600">
-              We bridge the gap between cutting-edge color technology and practical industrial applications, ensuring every product meets the highest standards of quality and environmental responsibility.
+              We are committed to delivering quality, reliability, and value in every solution we offer, while fostering sustainable progress. By aligning science with purpose, we strive to be the trusted partner that helps businesses transform challenges into opportunities.
             </p>
           </motion.div>
         </motion.div>
@@ -131,8 +123,8 @@ export default function About() {
             >
               <Users className="text-4xl mb-4" size={48} />
             </motion.div>
-            <h4 className="text-2xl font-semibold mb-4">Expert Team</h4>
-            <p>Decades of combined experience in pigment chemistry, manufacturing, and international trade.</p>
+            <h4 className="text-2xl font-semibold mb-4">Skilled & Committed</h4>
+            <p>A passionate team bringing fresh perspectives and technical know-how to deliver dependable, high-quality solutions.</p>
           </motion.div>
         </motion.div>
       </div>

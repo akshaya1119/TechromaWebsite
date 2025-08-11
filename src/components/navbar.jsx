@@ -33,15 +33,15 @@ export default function Navbar() {
               className="w-12 h-12 rounded-lg flex items-center justify-center overflow-hidden"
             >
               <img
-                src="/Techroma Logo.png"
+                src="/techroma-logo.png"
                 alt="Techroma Logo"
                 className="w-full h-full object-contain"
               />
             </motion.div>
             <div className="text-gray-800">
-  <div className="text-2xl font-bold leading-none font-montserrat">TECHROMA</div>
-  <div className="text-sm font-bold text-center font-montserrat">INDUSTRIES</div>
-</div>
+              <div className="text-2xl font-bold leading-none font-montserrat">TECHROMA</div>
+              <div className="text-sm font-medium text-center font-montserrat">The science behind progress</div>
+            </div>
 
          </motion.div>
 

@@ -238,8 +238,8 @@ export default function Contact() {
                 <div>
                   <h5 className="text-xl font-semibold text-gray-800 mb-2">Our Office</h5>
                   <p className="text-gray-600">
-                    Industrial Complex, Sector 15<br />
-                    Manufacturing Hub, Gujarat 380015<br />
+                    B-118, ANSA Industrial Estate<br />
+                    Saki Vihar Road, Mumbai - 400072<br />
                     India
                   </p>
                 </div>
@@ -262,7 +262,7 @@ export default function Contact() {
                   <h5 className="text-xl font-semibold text-gray-800 mb-2">Phone & Email</h5>
                   <p className="text-gray-600">
                     +91 (0) 123 456 7890<br />
-                    info@techroma.com<br />
+                    hello@techroma.com<br />
                     export@techroma.com
                   </p>
                 </div>
@@ -284,8 +284,8 @@ export default function Contact() {
                 <div>
                   <h5 className="text-xl font-semibold text-gray-800 mb-2">Business Hours</h5>
                   <p className="text-gray-600">
-                    Monday - Friday: 9:00 AM - 6:00 PM<br />
-                    Saturday: 9:00 AM - 2:00 PM<br />
+                    Monday - Friday: 10:00 AM - 6:00 PM<br />
+                    Saturday: 10:00 AM - 2:00 PM<br />
                     Sunday: Closed
                   </p>
                 </div>

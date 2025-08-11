@@ -34,14 +34,14 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
           >
-            Vibrant Colors.<br />
+            The Science Behind<br />
             <motion.span 
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-brand-yellow"
             >
-              Global Reach.
+              Progress.
             </motion.span>
           </motion.h1>
           <motion.p 
@@ -50,7 +50,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl"
           >
-            Delivering premium organic and inorganic pigments to industries worldwide with unwavering quality and innovative solutions.
+            Delivering high-performance solutions, designed with precision and built on expertise.
           </motion.p>
           
           <motion.div 

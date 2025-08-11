@@ -1,5 +1,5 @@
 ﻿"use client";
-import { Paintbrush, Shirt, Package, Printer } from "lucide-react";
+import { Paintbrush, Shirt, Package, Printer, Factory, Settings } from "lucide-react";
 import { motion } from "framer-motion";
 
 const cardVariants = {
@@ -53,10 +53,10 @@ export default function Markets() {
               whileHover={{ rotate: 360 }}
               transition={{ duration: 0.6 }}
             >
-              <Paintbrush className="mx-auto text-3xl mb-4" size={48} />
+              <Factory className="mx-auto text-3xl mb-4" size={48} />
             </motion.div>
-            <h4 className="text-xl font-semibold mb-2">Paints & Coatings</h4>
-            <p className="text-sm">Automotive, architectural, and industrial coatings</p>
+            <h4 className="text-xl font-semibold mb-2">Polymer Manufacturing</h4>
+            <p className="text-sm">High-performance polymers and advanced materials</p>
           </motion.div>
           
           <motion.div 
@@ -68,10 +68,25 @@ export default function Markets() {
               whileHover={{ rotate: 360 }}
               transition={{ duration: 0.6 }}
             >
-              <Shirt className="mx-auto text-3xl mb-4" size={48} />
+              <Paintbrush className="mx-auto text-3xl mb-4" size={48} />
             </motion.div>
-            <h4 className="text-xl font-semibold mb-2">Textiles</h4>
-            <p className="text-sm">Fashion, home textiles, and technical fabrics</p>
+            <h4 className="text-xl font-semibold mb-2">Inks and Coatings</h4>
+            <p className="text-sm">Printing inks, paints, and protective coatings</p>
+          </motion.div>
+          
+          <motion.div 
+            variants={cardVariants}
+            whileHover={{ scale: 1.05, y: -5 }}
+            className="bg-brand-red text-white p-6 rounded-xl shadow-lg text-center cursor-pointer transition-all duration-300"
+          >
+            <motion.div
+              whileHover={{ rotate: 360 }}
+              transition={{ duration: 0.6 }}
+            >
+              <Settings className="mx-auto text-3xl mb-4" size={48} />
+            </motion.div>
+            <h4 className="text-xl font-semibold mb-2">Specialty Chemicals</h4>
+            <p className="text-sm">Custom chemical solutions and intermediates</p>
           </motion.div>
           
           <motion.div 
@@ -87,21 +102,6 @@ export default function Markets() {
             </motion.div>
             <h4 className="text-xl font-semibold mb-2">Plastics</h4>
             <p className="text-sm">Packaging, automotive parts, and consumer goods</p>
-          </motion.div>
-          
-          <motion.div 
-            variants={cardVariants}
-            whileHover={{ scale: 1.05, y: -5 }}
-            className="bg-brand-red text-white p-6 rounded-xl shadow-lg text-center cursor-pointer transition-all duration-300"
-          >
-            <motion.div
-              whileHover={{ rotate: 360 }}
-              transition={{ duration: 0.6 }}
-            >
-              <Printer className="mx-auto text-3xl mb-4" size={48} />
-            </motion.div>
-            <h4 className="text-xl font-semibold mb-2">Printing Inks</h4>
-            <p className="text-sm">Commercial, packaging, and digital printing</p>
           </motion.div>
         </motion.div>
       </div>
