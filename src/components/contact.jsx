@@ -263,7 +263,7 @@ export default function Contact() {
                   <p className="text-gray-600">
                     +91 (0) 123 456 7890<br />
                     hello@techroma.com<br />
-                    export@techroma.com
+                    
                   </p>
                 </div>
               </div>

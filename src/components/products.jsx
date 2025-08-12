@@ -112,9 +112,9 @@ export default function Products() {
                     </div>
                     
                     {/* Product Information Grid */}
-                    <div className="grid lg:grid-cols-3 gap-0">
+                    <div className="grid lg:grid-cols-2 gap-0">
                       {/* Technical Specifications */}
-                      <div className="p-6 bg-white">
+                      <div className="p-6" style={{ backgroundColor: '#f8f9fa' }}>
                         <h5 className="text-xl font-bold mb-4" style={{ color: '#2563eb' }}>Technical Specifications</h5>
                         <div className="space-y-3">
                           <div>
@@ -187,50 +187,6 @@ export default function Products() {
                           </motion.li>
                         </motion.ul>
                       </div>
-
-                      {/* Industries */}
-                      <div className="p-6 bg-white">
-                        <h5 className="text-xl font-bold mb-4" style={{ color: '#2563eb' }}>Target Industries</h5>
-                        <motion.div 
-                          className="space-y-3"
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          transition={{ delay: 0.3, staggerChildren: 0.1 }}
-                        >
-                          <motion.div 
-                            className="p-3 rounded-lg border-l-4 border-blue-500 bg-blue-50"
-                            whileHover={{ scale: 1.02 }}
-                            transition={{ duration: 0.2 }}
-                          >
-                            <p className="font-medium text-blue-800">Textile & Garment Industry</p>
-                            <p className="text-sm text-blue-600">Dye intermediates</p>
-                          </motion.div>
-                          <motion.div 
-                            className="p-3 rounded-lg border-l-4 border-green-500 bg-green-50"
-                            whileHover={{ scale: 1.02 }}
-                            transition={{ duration: 0.2 }}
-                          >
-                            <p className="font-medium text-green-800">Polymer & Plastics</p>
-                            <p className="text-sm text-green-600">High-performance materials</p>
-                          </motion.div>
-                          <motion.div 
-                            className="p-3 rounded-lg border-l-4 border-purple-500 bg-purple-50"
-                            whileHover={{ scale: 1.02 }}
-                            transition={{ duration: 0.2 }}
-                          >
-                            <p className="font-medium text-purple-800">Coatings & Adhesives</p>
-                            <p className="text-sm text-purple-600">Specialty formulations</p>
-                          </motion.div>
-                          <motion.div 
-                            className="p-3 rounded-lg border-l-4 border-red-500 bg-red-50"
-                            whileHover={{ scale: 1.02 }}
-                            transition={{ duration: 0.2 }}
-                          >
-                            <p className="font-medium text-red-800">Chemical Manufacturing</p>
-                            <p className="text-sm text-red-600">Process intermediates</p>
-                          </motion.div>
-                        </motion.div>
-                      </div>
                     </div>
                   </CardContent>
                 </Card>
@@ -291,9 +247,9 @@ export default function Products() {
                     </div>
                     
                     {/* Product Information Grid */}
-                    <div className="grid lg:grid-cols-3 gap-0">
+                    <div className="grid lg:grid-cols-2 gap-0">
                       {/* Technical Specifications */}
-                      <div className="p-6 bg-white">
+                      <div className="p-6" style={{ backgroundColor: '#f8f9fa' }}>
                         <h5 className="text-xl font-bold mb-4" style={{ color: '#e84061' }}>Technical Specifications</h5>
                         <div className="space-y-3">
                           <div>
@@ -365,50 +321,6 @@ export default function Products() {
                             <span className="text-gray-800">Specialty chemical synthesis</span>
                           </motion.li>
                         </motion.ul>
-                      </div>
-
-                      {/* Industries */}
-                      <div className="p-6 bg-white">
-                        <h5 className="text-xl font-bold mb-4" style={{ color: '#e84061' }}>Target Industries</h5>
-                        <motion.div 
-                          className="space-y-3"
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          transition={{ delay: 0.3, staggerChildren: 0.1 }}
-                        >
-                          <motion.div 
-                            className="p-3 rounded-lg border-l-4 border-purple-500 bg-purple-50"
-                            whileHover={{ scale: 1.02 }}
-                            transition={{ duration: 0.2 }}
-                          >
-                            <p className="font-medium text-purple-800">Textile Dyeing & Printing</p>
-                            <p className="text-sm text-purple-600">Color intermediates</p>
-                          </motion.div>
-                          <motion.div 
-                            className="p-3 rounded-lg border-l-4 border-pink-500 bg-pink-50"
-                            whileHover={{ scale: 1.02 }}
-                            transition={{ duration: 0.2 }}
-                          >
-                            <p className="font-medium text-pink-800">Cosmetic Industry</p>
-                            <p className="text-sm text-pink-600">Hair dye products</p>
-                          </motion.div>
-                          <motion.div 
-                            className="p-3 rounded-lg border-l-4 border-orange-500 bg-orange-50"
-                            whileHover={{ scale: 1.02 }}
-                            transition={{ duration: 0.2 }}
-                          >
-                            <p className="font-medium text-orange-800">Rubber & Polymer</p>
-                            <p className="text-sm text-orange-600">Chemical additives</p>
-                          </motion.div>
-                          <motion.div 
-                            className="p-3 rounded-lg border-l-4 border-indigo-500 bg-indigo-50"
-                            whileHover={{ scale: 1.02 }}
-                            transition={{ duration: 0.2 }}
-                          >
-                            <p className="font-medium text-indigo-800">Specialty Chemicals</p>
-                            <p className="text-sm text-indigo-600">Pharmaceuticals</p>
-                          </motion.div>
-                        </motion.div>
                       </div>
                     </div>
                   </CardContent>

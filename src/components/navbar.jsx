@@ -40,7 +40,7 @@ export default function Navbar() {
             </motion.div>
             <div className="text-gray-800">
               <div className="text-2xl font-bold leading-none font-montserrat">TECHROMA</div>
-              <div className="text-sm font-medium text-center font-montserrat">The science behind progress</div>
+              {/* <div className="text-sm font-medium text-center font-montserrat">Industires</div> */}
             </div>
 
          </motion.div>

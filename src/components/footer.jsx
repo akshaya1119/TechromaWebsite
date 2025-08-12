@@ -13,7 +13,7 @@ export default function Footer() {
               <span className="text-xl font-bold">Techroma</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Premium pigments and color solutions for industries worldwide.
+              The science behind progress
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-brand-blue hover:text-brand-yellow transition-colors">
